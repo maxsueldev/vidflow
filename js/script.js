@@ -35,9 +35,9 @@ async function getDados() {
     try {
         const api = await fetch('https://vidflow-max.vercel.app/backend/videos.json');
         const apiConvertida = await api.json();
-        console.log(apiConvertida);
-    
-        apiConvertida.forEach(element => listaVideos.appendChild(criarCard(element)));
+        const arrayVideos = apiConvertida.videos;
+        
+        arrayVideos.forEach(element => listaVideos.appendChild(criarCard(element)));
     } catch(error) {
         listaVideos.innerHTML = `Aconteceu algum erro: ${error}`;
     }
