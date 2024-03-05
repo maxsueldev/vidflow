@@ -7,8 +7,6 @@ inputMode.addEventListener('change', function() {
     body.classList.toggle('dark-mode');
 });
 
-
-
 // Carregamento de vídeos
 
 const listaVideos = document.querySelector('[data-lista]');
