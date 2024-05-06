@@ -1,7 +1,0 @@
-INFOS:
-  fonts: Roboto
-  --azul-escuro: #154580;
-  --azul-medio: #3970BE;
-  --azul-claro: #E5F1FF;
-  --cinza-texto: #444444;
-  --cinza-claro: #ECECEC;
